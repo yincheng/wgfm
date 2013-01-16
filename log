@@ -1,0 +1,57 @@
+Every modifications/changes made to this remote directory should be logged in as much detailed as possible.
+
+Jon: <Mar24,1043am>
+	- Fixed bad rendering of panorama.html on IE
+	- Fixed panorama link on g_virtual.html (open in new windows)
+	- Added bottom title bar on index.html
+	- Added meta keywords and descriptions in generic_head.tmp for SEO
+
+Jon: <Mar20,0347am>
+	- Added panorama.html
+	- Implemented dynamic loading in panorama.html
+	- Cleaned up unused fancy box files
+	- Added "Century Gothic" font to generic.css
+
+Mike: Mar 09
+-added mp3 embed in index.html (commented out)
+-added jQuery script call in head_generic.tmp
+-added jPlayer to index.html ONLY
+-added jPlayer components to folders
+
+Jon: <Mar06,0247am>
+	- Modified Layout of all pages
+		-got rid of the middle navigation bar
+		-added the buttons on the left on index.html
+		-added ad banners and javascript to all pages
+		-fixed broken link in footer
+	- Fixed uneven spacing on main navigation panel
+	- Fixed social media icons(replaced with higher res. ones)
+	- Implemented google analytics script
+		
+Jon: <Mar03,1231am>
+	- Implemented randomly select poster image in javascript
+	- Reimplemented index.html with SSI
+	
+Mike: <Mar03>
+	- Added panaorama_test.html
+	- Created /panoramas and /fancybox in /images
+	- Added jquery.xxx.js files in /javascript
+
+Jon: <Feb28,0959pm>
+	- Fixed dropdown menu overflowing bug
+
+Jon: <Feb27,0616pm>
+	- Created all web pages on the site
+	- Uploaded image files
+	- Embeded thumbnail shortcuts in all pages
+	- Linked all pages together (menu, footer and thumbnails)
+	- moved CSS properties of id="left" and id="right" to generic.css
+	
+Jon: <Feb25,0135am>
+	- Created this log file
+	- Uploaded the generic layout template file (generic_content.html)
+		- This layout template should be used as much as possible to reduce development time
+		- Most of the common html tags/CSS/scripts for this template are loaded from external files
+		  (head_generic.tmp, header_generic.tmp, footer_generic.tmp) using Server-side Include (SSI).
+		- Content/tags customized for particular pages can be added to designated sections within the layout template.
+	- Uploaded prototype for landing page (index.html)

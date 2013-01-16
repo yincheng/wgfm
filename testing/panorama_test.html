@@ -1,0 +1,76 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+      <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+<head>
+<title>Test - World Gym Virtual Tour</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="shortcut icon" href="images/favicon.ico" />
+<link rel="stylesheet" type="text/css" href="css/jquery.panorama.css" media="screen" />
+<link rel="stylesheet" type="text/css" href="css/jquery.fancybox-1.3.1.css" media="screen" />
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.5.1/jquery.min.js"></script>
+<script type="text/javascript" src="javascript/jquery.panorama.js"></script>
+<script type="text/javascript">
+	$(document).ready(function(){
+		$("img.advancedpanorama").panorama({
+	        auto_start: 1,
+			start_position: 0
+	         });
+	});
+</script>
+<script type="text/javascript" src="javascript/cvi_text_lib.js"></script>
+<script type="text/javascript" src="javascript/jquery.advanced-panorama.js"></script>
+<script type="text/javascript" src="javascript/jquery.flipv.js"></script>
+<script type="text/javascript" src="javascript/jquery.fancybox-1.3.1.pack.js"></script>
+<script type="text/javascript">
+	$(document).ready(function(){
+	  $('.thickbox').fancybox();
+	});
+</script>
+
+<style  type="text/css">
+	body {
+		background: #000000;
+		text-align: center;
+	}
+	h1 {
+		color: white;
+		margin-bottom: 2em;
+		font-family: Verdana;
+		font-weight: normal;
+		font-size: 25px;
+	}
+	#page {
+		text-align: center;
+		color: white;
+	}
+	#page a {
+		color: white;
+	}
+	#page .panorama-viewport {
+		border: 20px solid #414141;
+		margin-left: auto;
+		margin-right: auto;
+	}
+	#page p {
+		margin-bottom: 1em;
+	}
+</style>
+</head>
+<body>
+<h1>Test - World Gym Virtual Tour</h1>
+
+<div id="page">
+	
+	<img src="images/panoramas/panorama14.jpg" class="advancedpanorama" width="3040" height="375" usemap="testmap" alt="World Gym Fort McMurray   " />
+	<!--<map id="testmap" name="testmap"> 
+		' to go to another panorama
+		<area shape="rect" coords="1653,72,1839,255" href="salleformation.html" alt="vers la salle de formation" /> 
+		' to pop up picture
+		<area shape="rect" coords="2013,114,2091,210" href="images/statue1.jpg" alt="statues" class="thickbox" /> 
+		<area shape="rect" coords="1920,276,2070,351" href="images/gouges.jpg" alt="gouges" class="thickbox" /> 
+	</map>-->
+	
+	
+</div>
+</body>
+</html>

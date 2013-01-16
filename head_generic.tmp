@@ -1,0 +1,22 @@
+	<meta charset="utf-8" />
+	<link rel="shortcut icon" href="/favicon.ico" />
+	<link rel="stylesheet" href="/css/generic.css"/>
+	<link type="text/css" href="/css/jplayer.blue.monday.css" rel="stylesheet"/>
+	<script src="/javascript/ad_banner.js" type="text/javascript"></script>
+	<META name="description" content="World Gym Fort McMurray is the most equipped gym in Canada, and the best gym in Fort McMurray, Alberta. World Gym Fort McMurray offers a wide range of fitness equipments and service, including personal coaching, weight lifting competition, weight loss competition etc. World Gym also features a well stocked Pro shop, offering a huge selection of health product, from protein drink to vitamin supplements. Looking for a healthier lifestyle? Come visit us!"/>
+	<META name="keywords" content="world gym,healthy,lifestyle,fort mcmurray,fort mc,alberta,oil sand,canada,world gym fort mcmurray,things to do in fort mcmurray,gym fort mcmurray,corporate benefit fort mcmurray,free gym membership,personal coaching,fitness lesson,weight lifting,treadmil,cardiac,weight loss"/>
+	<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4/jquery.min.js"></script>
+	<!--[if lt IE 9]>
+		<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+	<![endif]-->
+	<script type="text/javascript">
+ 	 var _gaq = _gaq || [];
+ 	 _gaq.push(['_setAccount', 'UA-21856235-2']);
+ 	 _gaq.push(['_trackPageview']);
+
+ 	 (function() {
+  	  var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+  	  ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+  	  var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+ 	 })();
+	</script>

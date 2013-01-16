@@ -1,0 +1,10 @@
+				<article id="ad_banner">
+					<a id="ad_link" href="/m_joinus.html"><img name="ad" src="/images/ad_membership.png" alt="Become Our Member"/></a>
+					<script type="text/javascript">switchAd(Math.floor(Math.random()*3))</script>
+					<nav style="height:198px;">
+						<div class="sshow_button"><a id="ad_button_1" href="#ad" style="" onclick="switchAd(0)">1</a></div>
+						<div class="sshow_button"><a id="ad_button_2" href="#ad" style="" onclick="switchAd(1)">2</a></div>
+						<div class="sshow_button"><a id="ad_button_3" href="#ad" style="" onclick="switchAd(2)">3</a></div>
+					</nav>
+					<div class="dummy"></div>
+				</article>
